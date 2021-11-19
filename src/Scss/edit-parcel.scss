@@ -1,0 +1,38 @@
+.editParcel {
+  margin-top: 32px;
+  .edit-parcel-label {
+    margin: 32px 0 32px 0;
+    font-size: 32px;
+  }
+  .edit-container {
+    padding: 40px;
+    border: 1px #fff solid;
+    width: 550px;
+    .edit-parcel-name {
+      margin: 32px;
+      .parcel-name {
+        margin-right: 72px;
+      }
+    }
+    .edit-parcel-group {
+      .select-group {
+        margin-right: 32px;
+      }
+    }
+  }
+}
+.indicator-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  margin-right: 200px;
+  margin-bottom: 32px;
+  .group-color {
+    padding-top: 16px;
+    .badge {
+      margin-left: 36px;
+      width: 20px;
+      height: 20px;
+    }
+  }
+}

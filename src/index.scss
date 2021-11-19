@@ -1,0 +1,80 @@
+@import "./Scss/variables";
+
+@import "./Scss/action-buttons";
+@import "./Scss/edit-parcel";
+@import "./Scss/header";
+@import "./Scss/parcel";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Titillium Web", sans-serif;
+  color: black;
+  background-color: $background_color;
+}
+.color-white {
+  color: #fff;
+}
+
+.back-danger {
+  background-color: $danger_color;
+}
+
+.back-secondary {
+  background-color: $secondary_color;
+}
+
+.back-warning {
+  background-color: $warning_color;
+}
+
+.d-flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+.space-around {
+  justify-content: space-around;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+}
+
+.d-flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.container {
+  margin: 55px 80px;
+}
+.disabled-btn {
+  opacity: 0.5;
+  pointer-events: none;
+}
+.cursor-hand {
+  cursor: pointer;
+}
+
+select {
+  width: 100%;
+  min-width: 15ch;
+  max-width: 30ch;
+  border: 1px solid var(--select-border);
+  border-radius: 0.25em;
+  padding: 0.25em 0.5em;
+  font-size: 1.25rem;
+  cursor: pointer;
+  line-height: 1.1;
+  background-color: #fff;
+  background-image: linear-gradient(to top, #f9f9f9, #fff 33%);
+}

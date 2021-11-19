@@ -1,0 +1,33 @@
+.parcel {
+  margin-top: 40px;
+  display: flex;
+  overflow-x: auto;
+  padding-bottom: 16px;
+  .parcel-container {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    .parcel-text {
+      color: #fff;
+      padding: 8px 0;
+    }
+    .parcel-sequence {
+      padding: 8px 71px;
+    }
+  }
+  &::-webkit-scrollbar {
+    height: 8px;
+    width: 4px;
+    background: gray;
+  }
+  &::-webkit-scrollbar-thumb:horizontal {
+    background: #6d9eec;
+    border-radius: 10px;
+  }
+}
+
+.selected-parcel {
+  border: 3px $dot_border;
+  border-style: dashed;
+}
